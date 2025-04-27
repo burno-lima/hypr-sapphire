@@ -1,40 +1,5 @@
-![image](https://github.com/user-attachments/assets/d0aa860c-7a3b-4a50-9709-5ce91033616f)
+# **Hypr-Sapphire**
 
+**Hypr-Sapphire** é um instalador para meus **dotfiles** no **Arch Linux**, utilizando o **Hyprland**, um compositor **Wayland** avançado, com o objetivo de configurar um ambiente Linux otimizado para **desenvolvimento rápido**. Ele é configurado para fornecer todos os recursos necessários para um ambiente de desenvolvimento eficiente e personalizável.
 
-
-# Bruno dotfiles
-Warning: Don’t blindly use my settings unless you know what that entails. Use at your own risk!
-
-## Contents
-
-- vim (LazyVim) config
-- tmux config
-- fish config
-
-## Neovim setup
-
-### Requirements
-
-- Neovim >= **0.9.0** (needs to be built with **LuaJIT**)
-- Git >= **2.19.0** (for partial clones support)
-- [LazyVim](https://www.lazyvim.org/)
-- a [Nerd Font](https://www.nerdfonts.com/)(v3.0 or greater) **_(optional, but needed to display some icons)_**
-- a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
-- for [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) **_(optional)_**
-  - **live grep**: [ripgrep](https://github.com/BurntSushi/ripgrep)
-  - **find files**: [fd](https://github.com/sharkdp/fd)
-- a terminal that support true color and *undercurl*:
-  - [kitty](https://github.com/kovidgoyal/kitty) **_(Linux & Macos)_**
-  - [wezterm](https://github.com/wez/wezterm) **_(Linux, Macos & Windows)_**
-  - [alacritty](https://github.com/alacritty/alacritty) **_(Linux, Macos & Windows)_**
-  - [iterm2](https://iterm2.com/) **_(Macos)_**
-
-- ### Shell setup Linux(WSL2)
-
-- [Fish shell](https://fishshell.com/)
-- [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
-- [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts. I use Hack. - 'CaskaydiaMono Nerd Font Mono'.
-- [Tide](https://github.com/IlanCosman/tide) - Shell theme.
-- [Catppuccin](https://github.com/catppuccin/catppuccin.git) - Theme.
-- [Eza](https://github.com/eza-community/eza) - `ls` replacement
-
+O projeto está atualmente em fase **beta** e em constante aperfeiçoamento. Embora ainda faltem alguns recursos, aos poucos vamos ajustando e adicionando o que é essencial até a versão **1.0.0**. À medida que novas atualizações e recursos forem lançados, o repositório será mantido e atualizado.
