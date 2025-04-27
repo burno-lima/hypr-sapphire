@@ -1,0 +1,43 @@
+* {
+  font-family: "Hack Nerd Font", sans-serif;
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(30, 60, 90, 0.6);
+  /* azul escuro com transparência */
+  border-radius: 12px;
+  color: #dbeafe;
+  /* Azul claro do Catppuccin "Latte" */
+  padding: 4px 10px;
+  margin: 6px 10px 0px 10px;
+}
+
+#workspaces button {
+  padding: 0 8px;
+  margin: 0 4px;
+  border-radius: 10px;
+  color: #93c5fd;
+  background: transparent;
+}
+
+#workspaces button.focused {
+  background: rgba(147, 197, 253, 0.2);
+  color: #ffffff;
+}
+
+#workspaces button.active {
+  color: #43a7aa;
+  border-radius: 1rem;
+}
+
+#clock,
+#pulseaudio,
+#network,
+#battery,
+#tray,
+#custom-power,
+#brightness {
+  padding: 0 10px;
+}

@@ -1,0 +1,9 @@
+show=drun
+prompt=
+insensitive=true
+term=kitty
+location=center
+width=500
+height=400
+allow_images=true
+hide_scroll=true
