@@ -11,7 +11,7 @@ packages=(
   tmux
   swaylock
   wlogout
-  dolphin
+  nautilus
   btop
   fzf
   ripgrep
